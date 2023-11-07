@@ -1,9 +1,21 @@
 <?php
 
-    // $name = "yoshi";
-    $age = 30;
+    $stringOne = "my email is ";
+    $stringTwo = "mario123@thenetninja.co.uk";
+
+    // echo $stringOne . $stringTwo;
+
+    $name = 'mario';
+
+    // echo 'Hey, my name is ' . $name
+
+    // define("NAME", "Yoshi"); // Constant
+    // // $name = "yoshi";
+    // $age = 30;
 
     // $name = "mario"
+
+    // echo "Hey my name is $name"
 
 ?>
 
@@ -19,8 +31,8 @@
     </h1>    
 
     <div>
-        <?php echo $name ?>
-        <?php echo $age ?>
+        <?php echo NAME; ?>
+        <?php echo $age; ?>
     </div>
 </body>
 </html>
