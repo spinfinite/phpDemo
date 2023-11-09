@@ -29,7 +29,7 @@
     //Numbers
 
     $radius = 25;   //integer
-    // $pi = 3.14;     //float
+     $pi = 3.14;     //float
 
     // echo $pi * $radius**2;
 
@@ -38,8 +38,21 @@
     //
     // echo 2 * ( 4 + 9) / 3 ;
 
-    echo $radius++;
-    echo $radius;
+    // echo $radius++;
+    // echo $radius;
+
+    // $age = 20;
+    // $age += 10;
+
+    // echo $age;
+
+    //Number Functions
+
+    echo floor($pi);
+    echo ceil($pi);
+
+    // pi() which is a built in function into the language. 
+    echo pi();
 
 ?>
 
