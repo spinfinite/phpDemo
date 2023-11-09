@@ -29,11 +29,17 @@
     //Numbers
 
     $radius = 25;   //integer
-    $pi = 3.14;     //float
+    // $pi = 3.14;     //float
 
-    
+    // echo $pi * $radius**2;
 
+    //Order of Operations ( B I D M A S )
+    //Brackets - Indices - Division - Multiplication - Addition - Substraction
     //
+    // echo 2 * ( 4 + 9) / 3 ;
+
+    echo $radius++;
+    echo $radius;
 
 ?>
 
