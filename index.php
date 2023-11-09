@@ -48,12 +48,32 @@
 
     //Number Functions
 
-    echo floor($pi);
-    echo ceil($pi);
+    // echo floor($pi);
+    // echo ceil($pi);
 
-    // pi() which is a built in function into the language. 
-    echo pi();
+    // // pi() which is a built in function into the language. 
+    // echo pi();
 
+    // indexed arrays
+    // $peopleOne = ['shaun', 'crystal', 'ryu'];
+
+    // $peopleOne[1];
+    // $peopleTwo = array('ken', 'chun0li');
+
+    // echo $peopleOne[1];
+    // echo $peopleTwo[1];
+
+    $ages = [20, 30, 40, 50];
+    echo $ages;
+    print_r($ages);
+
+    $ages[] = 60;
+    print_r($ages);
+
+    array_push($ages, 70);
+    print_r($ages);
+
+    echo count($ages);
 ?>
 
 <!DOCTYPE html>
