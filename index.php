@@ -55,25 +55,32 @@
     // echo pi();
 
     // indexed arrays
-    // $peopleOne = ['shaun', 'crystal', 'ryu'];
+    $peopleOne = ['shaun', 'crystal', 'ryu'];
 
     // $peopleOne[1];
-    // $peopleTwo = array('ken', 'chun0li');
+    $peopleTwo = array('ken', 'chun0li');
 
     // echo $peopleOne[1];
     // echo $peopleTwo[1];
 
     $ages = [20, 30, 40, 50];
-    echo $ages;
-    print_r($ages);
+    // echo $ages;
+    // print_r($ages);
 
     $ages[] = 60;
-    print_r($ages);
+    // print_r($ages);
 
     array_push($ages, 70);
-    print_r($ages);
+    // print_r($ages);
 
-    echo count($ages);
+    // echo count($ages);
+
+    $peopleThree = array_merge($peopleOne, $peopleTwo);
+    // print_r($peopleThree);
+
+    // Associative Array as if Key Value Pairs (Dictionary)
+    $ninjasOne = ['shaun' => 'black', 'mario' => 'orange', 'luigi' => 'brown'];
+    echo $ninjasOne['mario'];
 ?>
 
 <!DOCTYPE html>
