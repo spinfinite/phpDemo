@@ -143,11 +143,16 @@ $ninjasThree = array_merge($ninjasOne, $ninjasTwo);
 // Loops
 // For Loops
 
-for($i = 0; $i < 5; $i++){
+$ninjas = ['shaun', 'ryu', 'yoshi'];
 
-    echo "some template" ;
-    echo "<br>";
+// for($i = 0; $i < count($ninjas); $i++){
 
+//     echo $ninjas[$i] . '<br />' ;
+
+// }
+
+foreach($ninjas as $ninja){
+    echo $ninja . '<br />';
 }
 
 ?>
